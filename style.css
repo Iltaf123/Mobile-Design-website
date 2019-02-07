@@ -1,0 +1,329 @@
+        body {
+            overflow-x: hidden;
+            overflow-y: scroll;
+            font-family: 'Raleway', sans-serif;
+        }
+        
+        .container-fluid {
+            background-image: url('../images/1.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        
+        .para {
+            font-size: 30px;
+        }
+        
+        .header-img img {
+            width: 60%;
+            height: 80%;
+        }
+        
+        hr {
+            display: block;
+            width: 100%;
+            height: 10px;
+            color: rgba(33, 33, 33, 0.75);
+        }
+        /* Testimonial */
+        
+        .testimonial {
+            background-image: url('../images/testimonial-bg.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: 50% 50%;
+        }
+        
+        .testimonial-overlay {
+            background-color: rgba(33, 33, 33, 0.75);
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+        
+        .carousel-indicators {
+            bottom: -10px;
+        }
+        
+        .carousel-inner .carousel-item img {
+            border: 2px solid #129CF3;
+            border-radius: 50%;
+            padding: 3px;
+        }
+        
+        .testimonial-caption {
+            padding-bottom: 60px;
+        }
+        
+        .testimonial-caption h2 {
+            color: #129CF3;
+            text-transform: uppercase;
+            font-weight: 900;
+            font-size: 30px;
+            margin-top: 25px;
+        }
+        
+        .testimonial-caption h4 {
+            color: #129CF3;
+        }
+        
+        .testimonial-caption h4 span {
+            color: #D8D8D8;
+            font-style: italic;
+            font-weight: 300px;
+        }
+        
+        .testimonial-caption p {
+            color: #D8D8D8;
+            font-size: 18px;
+            line-height: 27px;
+            padding-top: 50px;
+        }
+        /* newsletter css */
+        
+        #newsletter {
+            margin-top: 20px;
+            color: white;
+            background-color: green;
+        }
+        
+        #newsletter h1 {
+            float: left;
+        }
+        
+        #newsletter form {
+            float: right;
+            margin-top: 25px;
+        }
+        
+        #newslette,
+        .email {
+            padding: 4px;
+            height: 30px;
+            width: 250px;
+            text-align: center;
+        }
+        /* feautres section  */
+        
+        .features-inner-wrapper {
+            padding-top: 30px;
+            padding-bottom: 70px;
+        }
+        
+        .left-feature-item {
+            position: relative;
+            padding-right: 90px;
+            margin-bottom: 65px;
+            margin-top: 35px;
+        }
+        
+        .left-feature-item-icon {
+            position: absolute;
+            font-size: 40px;
+            color: #129CF3;
+            right: 0;
+            top: -8px;
+            width: 90px;
+            height: 90px;
+            text-align: center;
+        }
+        
+        .left-feature-item h3 {
+            text-transform: uppercase;
+            font-size: 25px;
+            font-weight: 700;
+            margin-bottom: 21px;
+            color: #333;
+        }
+        
+        .left-feature-item p {
+            color: #333;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 25px;
+        }
+        
+        .feature_iphone {
+            width: 100%;
+        }
+        
+        .right-feature-item {
+            position: relative;
+            padding-left: 90px;
+            margin-bottom: 65px;
+            margin-top: 35px;
+            text-align: left;
+        }
+        
+        .right-feature-item-icons {
+            position: absolute;
+            left: 0;
+            top: -8px;
+            font-size: 40px;
+            color: #129CF3;
+            width: 90px;
+            height: 90px;
+            text-align: center;
+        }
+        
+        .right-feature-item h3 {
+            text-transform: uppercase;
+            font-size: 25px;
+            font-weight: 700;
+            margin-bottom: 21px;
+            color: #333;
+        }
+        
+        .right-feature-item p {
+            color: #333;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 25px;
+        }
+        /* purchase now */
+        
+        .purchase-now {
+            background-color: #1a1a1a;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+        
+        .purchase-now p {
+            color: #dfdfdf;
+            font-size: 18px;
+        }
+        
+        .btn-purchase-now,
+        .btn-purchase-now:active,
+        .btn-purchase-now:visited,
+        .btn-purchase-now:focus {
+            background-color: #129cf3;
+            border: 1px solid 129cf3;
+            color: white;
+            border-radius: 2px;
+            padding: 10px 25px;
+            text-transform: uppercase;
+            transition: all 1s;
+            moz-transition: all 1s;
+            o-transition: all 1s;
+            webkit-transition: all 1s;
+        }
+        
+        .btn-purchase-now:hover {
+            background-color: #1274b1;
+            border-color: #316d90;
+        }
+        /* counter section */
+        
+        .counter {
+            background-image: url('../images/counter-bg.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            -webkit-background-size: cover;
+            background-position: 50% 50%;
+        }
+        
+        .counter-overlay {
+            padding-top: 120px;
+            padding-bottom: 120px;
+            background: rgba(0, 0, 0, .4);
+        }
+        
+        .counter-item i {
+            color: #129CF3;
+            font-size: 50px;
+        }
+        
+        .counter-item h2 {
+            color: D7DADB;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 35px;
+            margin-top: 15px;
+            margin-bottom: 1px;
+            font-family: 'Raleway', sans-serif;
+        }
+        
+        .counter-item p {
+            color: D7DADB;
+            font-size: 20px;
+            margin-top: 0;
+            font-weight: 300;
+            text-transform: uppercase;
+            font-family: 'Raleway', sans-serif;
+        }
+        /* donwload now section */
+        
+        .download-now img {
+            width: 100%;
+        }
+        
+        .available-on {
+            background-color: #1a1a1a;
+            margin-top: -8px;
+            position: relative;
+            border: 4px solid #123CF9;
+        }
+        
+        .available-title {
+            padding-top: 75px;
+        }
+        
+        .available-title h2 {
+            color: #D8D8D8;
+            font-size: 30px;
+        }
+        
+        .available-title p {
+            color: #D8D8D8;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        
+        .available-on .col-md-2 {
+            padding-top: 70px;
+            border: 1px solid #0f1217;
+            text-align: center;
+        }
+        
+        .contact-us .message-text {
+            height: 180px;
+            padding-top: 20px;
+        }
+        /* footer section */
+        
+        .footer {
+            background-color: #1a1a1a;
+            padding-bottom: 35px;
+            padding-top: 35px;
+            border-bottom: 4px solid #123CF9;
+        }
+        
+        .copyright {
+            width: 50%;
+        }
+        
+        .copyright {
+            color: #8C8B8A;
+            font-weight: 600;
+            font-size: 15px;
+            text-transform: uppercase;
+        }
+        
+        .scroll-top {
+            text-align: right;
+        }
+        
+        .scroll-top a {
+            padding: 25px;
+            background-color: #129CF3;
+        }
+        
+        .scroll-top a i {
+            background-color: #fff;
+            font-size: 25px;
+        }
